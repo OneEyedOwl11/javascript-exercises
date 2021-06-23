@@ -1,4 +1,5 @@
-const removeFromArray = function() {
+const removeFromArray = function(lst, tRm) {
+    return lst.splice(tRm, 1);
 
 };
 
